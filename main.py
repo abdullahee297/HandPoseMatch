@@ -72,6 +72,8 @@ pose_names = []
 print("Loading pose dataset...")
 
 for img_name in img_list:
+
+    
     img = cv2.imread(f"{folderPath}/{img_name}")
     rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
